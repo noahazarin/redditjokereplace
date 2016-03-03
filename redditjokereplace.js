@@ -1,8 +1,7 @@
 // ==UserScript==
 // @name           Communication to Goodness
-// @namespace      www.reddit.com
 // @version        1.0.3
-// @description    Replace any string in threads on TL Mafia that annoy Blazinghand
+// @description    Replace any string in threads on r/relatinships for comedic effect
 // @include        *.reddit.com/r/relationships/*
 // @grant       none
 // ==/UserScript==
