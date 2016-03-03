@@ -1,16 +1,10 @@
 // ==UserScript==
-// @name           Communication to Goodness
+// @name           Communication to Goodness, Honesty to Assholery
 // @version        1.0.3
-// @description    Replace any string in threads on r/relatinships for comedic effect
+// @description    Replace some strings in threads on r/relationships for comedic effect
 // @include        *.reddit.com/r/relationships/*
 // @grant       none
 // ==/UserScript==
-
-function escapeRegExp(str) {
-  str = String(str);
-  return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
-}
-
 
 var replaceArry = [
      [/a brutally honest person/g,                            'an asshole'],
